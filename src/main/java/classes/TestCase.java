@@ -1,0 +1,42 @@
+package classes;
+
+import java.util.List;
+
+public record TestCase(
+        String id,
+        String title,
+        String androidAutomated,
+        String automationIOS,
+        String commentsAndFeedback,
+        String createdBy,
+        String createdOn,
+        String estimate,
+        String expectedResultDoNotUse,
+        String forecast,
+        String isAutomated,
+        String manualQAReviewNeeded,
+        String milestone,
+        String preconditions,
+        String priority,
+        String readyForAutomation,
+        String references,
+        String region,
+        String section,
+        String sectionDepth,
+        String sectionDescription,
+        String sectionHierarchy,
+        String stepsAdditionalInfo,
+        String stepsDoNotUse,
+        String stepsReferences,
+        String stepsSharedStepId,
+        String stepsStep,
+        String suite,
+        String suiteId,
+        String template,
+        String testRunType,
+        String type,
+        String updatedBy,
+        String updatedOn,
+        String iOSAutomated,
+        List<TestStep> steps
+){}
